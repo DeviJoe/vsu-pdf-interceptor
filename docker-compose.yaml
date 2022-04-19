@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+    interceptor:
+        image: devijoe/interceptor_bot:v1
+        build:
+            context: .
+            dockerfile: Dockerfile
+        env_file:
+            - .env
+        network_mode: host
+        

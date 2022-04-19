@@ -3,4 +3,3 @@ reportlab==3.6.1
 svglib==1.1.0
 ocrmypdf==12.4.0
 requests==2.26.0
-python-dotenv==0.19.0

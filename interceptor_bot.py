@@ -1,5 +1,4 @@
 import os
-import dotenv
 import random
 import string
 import requests
@@ -14,8 +13,6 @@ from utils import text_files_util
 from service import interceptor
 import logging
 import keyboards
-
-dotenv.load_dotenv()
 
 
 class PresData(StatesGroup):
